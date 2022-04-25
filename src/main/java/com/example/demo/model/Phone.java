@@ -1,6 +1,5 @@
 package com.example.demo.model;
 
-
 import javax.persistence.*;
 
 @Entity
@@ -12,8 +11,7 @@ public class Phone {
 	private int id;
 	private String brand;
 	private String number;
-	
-	
+
 	public Phone(int id, String brand, String number) {
 		super();
 		this.id = id;
